@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    background-color: #2a2a40;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #5c5c85;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #76c7c0; 
+}
+
+input, button {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #76c7c0; 
+    border-radius: 3px;
+    background-color: #404060; 
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #b2f7ef; 
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #76c7c0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #b2f7ef; /* Color verde azulado claro */
+}
+
+button:hover {
+    background-color: #76c7c0;
+    color: #5c5c85;
+}
+
+#total-tasks, #completed-tasks {
+    color: #76c7c0;
+}
